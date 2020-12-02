@@ -2,63 +2,151 @@
 <html>
 <head>
 <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="animation.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="javascript.js"></script>
 <title>index</title>
 </head>
 
 <body>
-
-	<nav class="navbar navbar-expand-lg fixed-top">
-		
-		
-		<a class="navbar-brand d-block d-lg-none" href="#">SZKOŁA TAŃCA</a>
-		
-		<button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+<nav class="navbar navbar-expand-lg fixed-top"> <a class="navbar-brand d-block d-lg-none" href="#">SZKOŁA TAŃCA</a>
+  <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
     	aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
-    		<div class="animated-icon1"><span></span><span></span><span></span></div>
-  		</button>
-		
-	  	<div class="collapse navbar-collapse" id="collapsibleNavbar">
-			<ul class="navbar-nav">
-			  <li class="nav-item">
-				<a class="nav-link" href="#">HOME</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">O NAS</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">OFERTA</a>
-			  </li>   
-			  <li class="nav-item">
-				<a class="nav-link" href="#">GRAFIK</a>
-			  </li> 
-			</ul>
-			<ul class="navbar-nav navbar-login ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#">ZALOGUJ</a>
-				</li>
-			</ul>
-    	</div>
-	</nav>
-	<div class="jumbotron row">
+  <div class="animated-icon1"><span></span><span></span><span></span></div>
+  </button>
+  <div class="collapse navbar-collapse offset-lg-2 col-lg-8" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link" href="#">HOME</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#o-nas">O NAS</a> </li>
+	  <li class="dropdown">
+		<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">OFERTA<span class="caret"></span></a>
+		  <ul class='dropdown-menu text-lg-left text-center'>
+			  <li><a class="nav-link" href="#wspolczesny">TANIEC WSPÓŁCZESNY</a></li>
+			  <li><a class="nav-link" href="#duet">DUEATY MODERN</a></li>
+			  <li><a class="nav-link" href="#joga">JOGA</a></li>
+		  </ul>
+	  </li>
+	  <li class="nav-item"> <a class="nav-link" href="#cennik">CENNIK</a> </li>	
+      <li class="nav-item"> <a class="nav-link" href="#">GRAFIK</a> </li>
+    </ul>
+    <ul class="navbar-nav navbar-login ml-auto">
+      <li class="nav-item"> <a class="nav-link" href="#">ZALOGUJ</a> </li>
+    </ul>
+  </div>
+</nav>
 	
-		<div class='col-lg-6 col-md-12 text-lg-left text-center' >
-		<h1>SZKOŁA TAŃCA</h1>
-			<p>Szkoła Tańca to profesjonalny zespół artystów i twórców, którzy poszukując z pasją nowych środków wyrazu artystycznego, połączyli balet z powietrzną akrobatyką, muzyką, kostiumem i światłem</p>
-		</div>
-		<div class='col-lg-6 col-md-12 d-none d-sm-block' align="center">
-			<img height="200px" src='images/dancer1.png'/>
-		</div>
+<div class="jumbotron row full-height align-items-center">
+  <div class='col-md-12 col-lg-4 offset-lg-2 text-center text-lg-left '>
+    <h1>SZKOŁA TAŃCA</h1>
+    <p>Szkoła Tańca to profesjonalny zespół artystów i twórców, którzy poszukując z pasją nowych środków wyrazu artystycznego, połączyli balet z powietrzną akrobatyką, muzyką, kostiumem i światłem</p>
+  </div>
+  <div class='col-md-12 col-lg-4 d-none d-md-block ' align="center"> <img height="200px" src='images/dancer1.png'/> </div>
+</div>
+	
+<a id='o-nas'></a>
+	<div class="row full-height">
+		<div class="parallax col-md-12 col-lg-8 offset-lg-2">
+			<div class="parallax-text">
 
+			<h1>O NAS</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+
+			</div>
+		</div>	
+	</div>
+
+
+<div class="row">
+	<div class='col-md-12 col-lg-8 offset-lg-2'>
+		<a id="wspolczesny"></a>
+		<div class="card mb-3 text-center">
+			<img class="card-img-top" src="images/taniec1_zdjecie_karuzela.png" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class='col-md-12 col-lg-8 offset-lg-2'>
+		<a id="duet"></a>
+		<div class="card mb-3 text-center">
+			<img class="card-img-top" src="images/taniec2_zdjecie_karuzela.png" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class='col-md-12 col-lg-8 offset-lg-2'>
+		<a id="joga"></a>
+		<div class="card mb-3 text-center">
+			<img class="card-img-top" src="images/joga_zdjecie_karuzela2.png" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			</div>
+		</div>
+	</div>
+</div>	
+
+
+<a id='cennik'></a>
+	<div class="row h-25 mb-3">
+		<div class="parallax col-md-12 col-lg-8 offset-lg-2 ">
+			<div class="parallax-text">
+
+			<h1>CENNIK</h1>
+
+			</div>
+		</div>	
 	</div>
 	
+	
+	
+<div class="row">
+	<div class='col-md-12 col-lg-8 offset-lg-2'>	
+
+		<div class="card-deck">
+
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="images/pexels-elly-fairytale-3823039.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
 
 
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="images/pexels-andrew-4226415.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
 
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-top" src="images/pexels-budgeron-bach-5149615.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+	
 </body>
 </html>
