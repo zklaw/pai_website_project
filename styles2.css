@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { font-family: SulphurPoint; src: url("fonts/Sulphur_Point/SulphurPoint-Regular.ttf");} 
+
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+  color: #4C4343;
+
+  font-family:SulphurPoint; 	
+}
+
+
+.row {
+	margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.animated-icon1{
+width: 30px;
+height: 20px;
+position: relative;
+margin: 0px;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+cursor: pointer;
+}
+
+.animated-icon1 span{
+display: block;
+position: absolute;
+height: 3px;
+width: 100%;
+border-radius: 9px;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .25s ease-in-out;
+-moz-transition: .25s ease-in-out;
+-o-transition: .25s ease-in-out;
+transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+background: #736666;
+}
+
+
+
+.animated-icon1 span:nth-child(1) {
+top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+top: 11px;
+-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+opacity: 0;
+left: -60px;
+}
+
+.animated-icon1.open span:nth-child(3) {
+top: 11px;
+-webkit-transform: rotate(-135deg);
+-moz-transform: rotate(-135deg);
+-o-transform: rotate(-135deg);
+transform: rotate(-135deg);
+}
+
+
+.navbar{
+
+/*	padding: 0 32px 0 32px;*/
+	white-space: nowrap;
+	font-size: 16px;
+	letter-spacing: 4px;
+	text-align:center;
+	
+}
+
+.navbar-brand:hover{
+	color: #736666;
+}
+
+
+
+.navbar-brand{
+	
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 4px;
+}
+
+
+
+
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.dropdown-menu.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear; 
+}
+
+
+.navbar li a{
+	/*color: #736666;	*/
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+
+
+
+.navbar li a:hover{
+	color: #fff;
+	background-color: #736666;
+	border-radius: .25rem;
+}
+
+.navbar-login li a:hover{
+	color: #BFA393;
+}
+
+.jumbotron{
+	background-color: #fff;
+
+}
+
+h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.parallax {
+  /* The image used */
+  background-image:url(images/pexels-thiago-matos-4086307_2.jpg);
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  /* The image used */
+  background-image:url(images/pexels-ahmad-qime-2849133.jpg);
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-3 {
+  /* The image used */
+  background-image:url(images/pexels-darius-krause-2470655_small.jpg);
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.parallax-text {
+    position: absolute;
+    width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.dropdown-menu {	
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-align:center;
+	background-color: transparent;
+}
+
+
+.dropdown-menu .nav-link {
+	font-size: 16px;
+	color: #736666;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+
+    padding-right: 0px; 
+    padding-left: 0px;
+	
+}
+.top-30{
+	top: 30%;
+}
+
+.top-50{
+	top: 50%;
+}
+
+
+
+.btn-primary{
+	color:#fff;
+	background-color:#A69594;
+	border-color:#A69594;
+}
+.btn-primary:hover{
+	color:#fff;
+	background-color:#736666;
+	border-color:#A69594;
+}
+.btn-primary.focus,.btn-primary:focus{
+	color:#fff;
+	background-color::#736666;
+	border-color:#A69594;
+	box-shadow:0 0 0 .2rem rgba(115,102,102,0.5);
+}
+
+
+.btn-primary.disabled,.btn-primary:disabled{
+	color:#fff;
+	background-color:#A69594;
+	border-color:#A69594;
+}
+.btn-primary:not(:disabled):not(.disabled).active,.btn-primary:not(:disabled):not(.disabled):active,.show>.btn-primary.dropdown-toggle{
+	color:#fff;
+	background-color:#736666;
+	border-color:#A69594;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus,.btn-primary:not(:disabled):not(.disabled):active:focus,.show>.btn-primary.dropdown-toggle:focus{
+	box-shadow:0 0 0 .2rem rgba(115,102,102,0.5)}
+
+
+
+a{
+ color:#4C4343;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#736666;
+}
+
+
+.table{
+	color:#4C4343;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  
+	background-color: #EDE5E1;
+}
+
+hr.underline {
+	width: 60px;
+	border-color: #4C4343;
+}
+
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
