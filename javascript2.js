@@ -13,8 +13,7 @@ $(function () {
   $(document).scroll(function () {
     var $nav = $(".fixed-top");
 	var $dropdown = $(".dropdown-menu");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-	$dropdown.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $nav.toggleClass('scrolled', $(this).scrollTop() > 1);
+	$dropdown.toggleClass('scrolled', $(this).scrollTop() > 1);
   });
 });
-

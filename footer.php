@@ -7,16 +7,16 @@
 		</div>
 		<div class="row text-uppercase text-center">
 			<div class="col-10 offset-1 col-lg-8 offset-lg-2">
-				<p class="font-weight-bold">linki</p>
+				<p class="font-weight-bold">links</p>
 				<hr class="underline">
-				<a href="#oferta">oferta</a><br>
-				<a href="#cennik">cennik</a><br>
-				<a href="#grafik">grafik</a>
+				<a href="index.php#classes">classes</a><br>
+				<a href="index.php#prices">prices</a><br>
+				<a href="index.php#schedule">schedule</a>
 			</div>
 		</div>
 		<div class="row text-uppercase text-center">
 			<div class="col-10 offset-1 col-lg-8 offset-lg-2 mt-3">
-				<p class="font-weight-bold">kontakt</p>
+				<p class="font-weight-bold">contact</p>
 				<hr class="underline">
 				ul. Przykładowa 5/10, 00-000 Gdańsk<br>
 				tel. 000-000-000
@@ -25,7 +25,7 @@
 		
 		<div class="row text-uppercase text-center">
 			<div class="col-10 offset-1 col-lg-8 offset-lg-2 mt-3">
-				<a href="#" class="font-weight-bold">admin</p>
+				<a href="login_admin.php" class="font-weight-bold">admin</p>
 			</div>
 		</div>
 		
